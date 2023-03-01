@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+</head>
+<body>
+<form action ="/questionnaire" method = "POST">
+  First Name: <input type="text" name="firstName"><br>
+  Last Name: <input type="text" name="lastName">
+  <h2>Where are you from</h2><br>
+  Ukraine: <input type="radio" value="Ukraine" name="chooseCountry"><br>
+  Poland: <input type="radio" value="Poland" name="chooseCountry"><br>
+  UK: <input type="radio" value="UK" name="chooseCountry"><br>
+  USA: <input type="radio" value="USA" name="chooseCountry"><br>
+  Russia: <input type="radio" value="Terrorist State" name="chooseCountry"><br>
+  Other country:  <input type="radio" value="Other" name="chooseCountry"><br>
+
+  <h2>How old are you</h2>
+  I am under 18: <input type="radio" value="Under 18" name="chooseAge"><br>
+  Between 18 and 20: <input type="radio" value="18-20" name="chooseAge"><br>
+  Between 20 and 30: <input type="radio" value="20-30" name="chooseAge"><br>
+  Between 30 and 40: <input type="radio" value="30-40" name="chooseAge"><br>
+  Between 40 and 50: <input type="radio" value="40-50" name="chooseAge"><br>
+  Over 50 years old: <input type="radio" value="Over 50" name="chooseAge"><br>
+
+  <h2>Gender</h2>
+  Male <input type="radio" value="male" name="chooseGender"><br>
+  Female <input type="radio" value="female" name="chooseGender"><br>
+  <input type="submit"/><br>
+</form>
+</body>
+</html>
